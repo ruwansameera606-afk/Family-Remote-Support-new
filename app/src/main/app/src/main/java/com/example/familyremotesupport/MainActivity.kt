@@ -3,8 +3,7 @@ package com.example.familyremotesupport
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import com.example.familyremotesupport.ui.theme.FamilyRemoteSupportTheme
 
 class MainActivity : ComponentActivity() {
 
@@ -12,12 +11,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            FamilyRemoteSupportApp()
+            FamilyRemoteSupportTheme {
+                NavGraph()
+            }
         }
     }
-}
-
-@Composable
-fun FamilyRemoteSupportApp() {
-    Text("Family Remote Support")
 }
