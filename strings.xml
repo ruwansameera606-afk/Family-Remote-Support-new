@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Family Remote Support</string>
+    <string name="tagline">Helping family, from anywhere.</string>
+    <string name="status_ready">Protected &amp; Ready</string>
+    <string name="privacy_guarantee">Your privacy is always protected. Remote support only starts with your permission.</string>
+    
+    <string name="start_support">START SUPPORT</string>
+    <string name="join_support">JOIN SUPPORT</string>
+    <string name="my_family">MY FAMILY</string>
+    <string name="support_history">SUPPORT HISTORY</string>
+    <string name="settings">SETTINGS</string>
+
+    <string name="create_session_title">Create Support Session</string>
+    <string name="share_code">Share Support Code</string>
+    <string name="waiting_for_family">Waiting for family member...</string>
+    
+    <string name="consent_title">Remote Support Permission</string>
+    <string name="consent_quote">This session allows your family member to help you troubleshoot your phone. You remain in control and can end the session at any time.</string>
+    <string name="allow_support">ALLOW SUPPORT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="end_support">END SUPPORT</string>
+</resources>
