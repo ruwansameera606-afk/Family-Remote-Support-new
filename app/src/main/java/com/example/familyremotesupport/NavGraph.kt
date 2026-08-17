@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.familyremotesupport.ui.screens.HomeScreen
 
 object Destinations {
     const val HOME = "home"
@@ -30,8 +31,11 @@ fun NavGraph(
         navController = navController,
         startDestination = Destinations.HOME
     ) {
+
         composable(Destinations.HOME) {
-            SimpleScreen("Family Remote Support")
+            HomeScreen(
+                navController = navController
+            )
         }
 
         composable(Destinations.START_SUPPORT) {
