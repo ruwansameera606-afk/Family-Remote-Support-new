@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.family.remotesupport"
+    applicationId = "com.example.familyremotesupport"
     compileSdk = 35
 
     defaultConfig {
